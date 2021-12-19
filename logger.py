@@ -1,7 +1,7 @@
 import datetime
 
-def logger(f):
-    filename = "log.txt"
+
+def logger(filename, f):
 
     def log(dt, name, args, result):
         s = dt.date().__str__() + " " + dt.time().__str__() + " " + name \

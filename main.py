@@ -32,4 +32,4 @@ def homework():
     return [item for item in FlatIterator(nested_list)]
 
 
-logger.logger(homework)()
+logger.logger("log.txt", homework)()
